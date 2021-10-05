@@ -1,0 +1,32 @@
+.background-container{
+    background: linear-gradient(24deg,#f5ca00 0 50%,#b60000 50% 100%);
+    height:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.a-container{
+    background-color: rgba(23, 23, 23, 0.989);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    height: 100%;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image{
+    width: 250px;
+    height: 275px;
+    border-radius: 10px;
+    float: left;
+    margin: 15px;
+}

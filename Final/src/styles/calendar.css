@@ -1,0 +1,24 @@
+.calendar-page{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.calendar-container{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.event-text{
+    text-decoration: underline;
+}
+.calendar{
+    height: 800px;
+    width: 100%;
+    border: 3px solid rgba(94, 93, 93, 0.363);
+    border-radius: 9px;
+}

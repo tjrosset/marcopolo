@@ -1,0 +1,32 @@
+.nav-link{
+    color: white;
+}
+.nav-link-active{
+    color: white;
+    text-decoration: underline;
+}
+.nav-link-active:hover{
+    color: white;
+    background: linear-gradient(89deg, #008c45 0 35%, #f4f5f0 35% 63%, #cd212a 63% 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 25px;
+}
+
+.nav-link:hover{
+    color: white;
+    background: linear-gradient(89deg, #008c45 0 35%, #f4f5f0 35% 63%, #cd212a 63% 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 25px;
+}
+
+.color-nav {
+    background-color: rgb(32, 32, 32);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 5px 3px rgba(36, 36, 36, 0.26);
+}
+
+.header-container{
+    position: sticky;
+}

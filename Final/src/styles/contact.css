@@ -1,0 +1,29 @@
+.footer-container{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0px -5px 3px rgba(36, 36, 36, 0.26);
+    border-top: 1px solid rgb(0, 0, 0);
+
+}
+
+.cspace{
+    background-color: transparent;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 125px;
+    list-style-type: none;
+    padding: 10px;
+
+}
+.info-item{
+    color:white;
+    list-style-type: none;
+}
+
+.testicon{
+    color: white;
+}
